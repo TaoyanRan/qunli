@@ -1,0 +1,222 @@
+/* pages/admin-authstr/admin-authstr.wxss */
+page{
+  background: #f9f9f9;
+}
+.admin-intro{
+  background: #fff;
+  padding: 40rpx 25rpx 60rpx;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.admin{
+  display: flex;
+  align-items: center;
+}
+.admin-pic image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.admin-nickname{
+  font-size: 30rpx;
+  color: #2f2f2f;
+}
+.admin-tag-icon{
+  width: 33rpx;
+  height: 36rpx;
+  margin-left: 10rpx;
+  margin-top: 3rpx;
+}
+.grade{
+  overflow: hidden;
+  font-size: 28rpx;
+  color: #888888;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.grade-type{
+  float: left;
+  margin-right: 10rpx;
+}
+.star{
+  overflow: hidden;
+  float: left;
+}
+.star image{
+  float: left;
+  width: 30rpx;
+  height: 25rpx;
+  margin-left: 10rpx;
+}
+.admin-attestation-setting{
+  border: 2rpx solid #32bcff;
+  border-radius: 10rpx;
+  color: #32bcff;
+  line-height: 1em;
+  margin-top: 6rpx;
+}
+.admin-attestation-setting text{
+  font-size: 25rpx;
+  padding: 17rpx;
+}
+.up-influence{
+  padding: 20rpx 40rpx 60rpx;
+  background: #fff;
+  position: relative;
+}
+.up-influence>view{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #fff;
+}
+.up-influence>view view{
+  display: inline-block;
+  background: #3c3c3c;
+  border-radius: 10rpx;
+  padding: 15rpx;
+  position: relative;
+}
+.up-influence>view view::after{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 100%;
+  width:  16rpx;
+  height: 16rpx;
+  margin-top: -7rpx;
+  background:  #3c3c3c;
+  transform: rotate(45deg);
+  content: "";
+}
+.container{
+  margin-top: 20rpx;
+}
+.tab{
+  width: 100%;
+  background: #fff;
+}
+.tab-header{
+  display: flex;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+.tab-header>view{
+  flex: 1; 
+  border-bottom: 1rpx solid #dddddd;
+  padding: 30rpx 0;
+  font-size: 25rpx;
+}
+.tab-header .tab-check{
+  color: #32bcff;
+  border-bottom: 1rpx solid #32bcff;
+}
+.authstrItem{
+  padding: 35rpx 25rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.user{
+  overflow: hidden;
+}
+.user image{
+  width: 85rpx;
+  height: 85rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.userName{
+  font-size: 25rpx;
+  margin: 10rpx 0;
+  color: #333333;
+}
+.timmer{
+  font-size: 20rpx;
+  margin: 10rpx 0;
+  color: #8b8b8b;
+}
+.publishText{
+  text-align: justify;
+  font-size: 30rpx;
+  line-height: 1.5em;
+  color: #3b3b3b;
+  margin: 25rpx 0 20rpx;
+}
+.picList{
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+.result{
+  overflow: hidden;
+  /* margin-bottom: 40rpx; */
+}
+.result view{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.result view:first-child{
+  padding-right: 25rpx;
+}
+.result view:last-child{
+  padding-leftt: 25rpx;
+}
+.result view button{
+  background: none;
+  border: 2rpx solid;
+}
+.result view:first-child button{
+  border-color: #f23a3a;
+  color: #f23a3a;
+}
+.result view:last-child button{
+  border-color: #09bb07;
+  color: #09bb07;
+}
+.groupItem{
+  padding: 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.groupItem::after{
+  position: absolute;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 0;
+  height: 1rpx;
+  background: #e0e0e0;
+  content: '';
+}
+.groupIntro{
+  display: flex;
+  align-items: center;
+}
+.groupPic image{
+  width: 85rpx;
+  height: 85rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.groupState{
+  font-size: 26rpx;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+.groupState image{
+  width:  30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+action-sheet-cancel,action-sheet-item{
+  font-size: 32rpx;
+}

@@ -1,0 +1,229 @@
+<!--home.wxml-->
+<view>
+  <view class="bx-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <text class="it_t0">棋子</text>
+          <icon class="icon ico-5" />
+        </view>
+        <view class="it_g0">
+          <text class="it_t1">棋子</text>
+          <view class="icon ico-8">
+            <icon class="icon ico-9" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="minfo-btn">
+      <button hover-class="button-hover" bindtap="default">设置群认证工具</button>
+    </view>
+  </view>
+
+  <view class="bx-minfo bx1-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <text class="it_t0">棋子</text>
+          <icon class="icon ico-6" />
+        </view>
+        <view class="it_g0">
+          <view class="it_gx">
+            <text class="it_t1">棋子</text>
+            <view class="icon ico-8">
+              <icon class="icon ico-9" style="width:0;" />
+            </view>
+          </view>
+          <icon class="icon ico-4" />
+        </view>
+      </view>
+    </view>
+    <view class="minfo-btn">
+      <button class="btn-disabled" hover-class="button-hover" bindtap="default">火速认证</button>
+    </view>
+  </view>
+
+  <view class="bx-minfo bx1-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <view class="it_ix">
+            <text class="it_t0">棋子</text>
+            <icon class="icon ico-2" />
+          </view>
+        </view>
+        <view class="it_g0">
+          <view class="it_gx">
+            <text class="it_t1">棋子</text>
+            <view class="icon ico-8">
+              <icon class="icon ico-9" style="width:0;" />
+            </view>
+          </view>
+          <icon class="icon ico-4" />
+        </view>
+      </view>
+    </view>
+    <view class="minfo-btn">
+      <button class="btn-disabled" hover-class="button-hover" bindtap="default">火速认证</button>
+    </view>
+  </view>
+
+  <view class="bx-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+         <view class="it_i0">
+          <view class="it_ix">
+            <text class="it_t0">棋子</text>
+            <icon class="icon ico-2" />
+          </view>
+          <view class="it_ibtn"><button hover-class="button-hover" bindtap="default">设置认证</button></view>
+        </view>
+        <view class="it_g0">
+          <text class="it_t1">棋子</text>
+          <view class="icon ico-8">
+            <icon class="icon ico-9" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="minfo-btn j_tipso_tools">
+      <view class="j_tipso_vtxt"><text class="j_tipso_txt">分享到群里让大家开始认证吧</text><icon class="j_tipso_icon icon ico-18" /></view>
+      <button class="j_tipso_btn" hover-class="button-hover" bindtap="default">邀请群友，提升影响力</button>
+    </view>
+  </view>
+
+  <view class="bx-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <text class="it_t0">棋子</text>
+          <icon class="icon ico-5" />
+        </view>
+        <view class="it_g0">
+          <icon class="icon ico-2" />
+          <text class="it_t1">审核中</text>
+        </view>
+      </view>
+      <view class="it_tel">
+        <icon class="icon ico-19" />
+        <text>客服</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="bx-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <text class="it_t0">棋子</text>
+          <icon class="icon ico-5" />
+        </view>
+        <view class="it_g0">
+          <text class="it_t1">棋子</text>
+          <view class="icon ico-8">
+            <icon class="icon ico-9" />
+          </view>
+        </view>
+      </view>
+      <view class="it_state">
+        <icon class="icon ico-5" />
+        <icon class="icon ico-2" />
+        <icon class="icon ico-6" />
+        <icon class="icon ico-7" />
+        <text>已认证</text>
+        <icon class="icon ico-3" />
+      </view>
+    </view>
+    <view class="minfo-btn j_tipso_tools">
+      <view class="j_tipso_vtxt"><text class="j_tipso_txt">快来设置认证方式吧</text><icon class="j_tipso_icon icon ico-18" /></view>
+      <button class="j_tipso_btn" hover-class="button-hover" bindtap="default">设置群认证工具</button>
+    </view>
+  </view>
+
+  <view class="bx-minfo bx2-minfo">
+    <view class="item-md1 minfo-item">
+      <view class="it_img"><image style="width:60px;height:60px;" src="../../images/img2.png"></image></view>
+      <view class="it_info">
+        <view class="it_i0">
+          <text class="it_t0">棋子</text>
+          <icon class="icon ico-5" />
+        </view>
+        <view class="it_g0">
+          <text class="it_t1">棋子</text>
+          <view class="icon ico-8">
+            <icon class="icon ico-9" />
+          </view>
+        </view>
+      </view>
+      <view class="it_state">
+        <icon class="icon ico-5" />
+        <icon class="icon ico-2" />
+        <icon class="icon ico-6" />
+        <icon class="icon ico-7" />
+        <text>已认证</text>
+        <icon class="icon ico-3" />
+      </view>
+    </view>
+    <view class="minfo-btn">
+      <button class="j_tipso_btn" hover-class="button-hover" bindtap="default">火速认证</button>
+    </view>
+    <view class="minfo-btn minfo2-btn">
+      <button class="j_tipso_btn" hover-class="button-hover" bindtap="default">邀请群友，提升影响力</button>
+    </view>
+  </view>
+
+  <view class="bx-mlist">
+  </view>
+
+  <view class="bx-btzlk">转发到其他微信群 ></view>
+
+  <view class="overlay_bx">
+    <view class="overlay_bg"></view>
+    <view class="overlay_bd">
+      <view class="overlay_con">
+        <text class="tt">什么是社群影响力？</text>
+        <view class="overlay_des">
+            <view>1、社群影响力显示了您在本群组织中的威信力和号召力；</view>
+            <view>2、邀请他人认证，能够提升您在本群中的影响力哦。</view>
+        </view>
+        <button class="overlay_btn" formType="submit" hover-class="button-hover" bindtap="default">知道了</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="overlay_bx">
+    <view class="overlay_bg"></view>
+    <view class="overlay_bd">
+      <view class="overlay_con overlay_con2">
+        <view class="overlay_des">
+            <view>群主大大还没有设置群认证方式，快去提醒TA吧~</view>
+        </view>
+        <view class="overlay_vbtn">
+          <button class="overlay_btn overlay_btn_cancel" formType="submit" hover-class="button-hover" bindtap="default">知道了</button>
+          <button class="overlay_btn overlay_btn_ok" formType="submit" hover-class="button-hover" bindtap="default">提醒群主</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="overlay_bx">
+    <view class="overlay_bg"></view>
+    <view class="overlay_bd">
+      <view class="overlay_con overlay_con2">
+        <view class="overlay_des">
+            <view>正在审核中，快去提醒群主大大吧。</view>
+        </view>
+        <view class="overlay_vbtn">
+          <button class="overlay_btn overlay_btn_cancel" formType="submit" hover-class="button-hover" bindtap="default">知道了</button>
+          <button class="overlay_btn overlay_btn_ok" formType="submit" hover-class="button-hover" bindtap="default">提醒群主</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,99 @@
+/* test/setting-view/setting-view.wxss */
+.settingView{
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.settingMask{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.3;
+  z-index: 1;
+}
+.settingContainer{
+  position: absolute;
+  left: 52rpx;
+  right: 52rpx;
+  top: 5%;
+  bottom: 10%;
+  z-index: 2;
+}
+.closeSettingView{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  text-align: center;
+}
+.closeSettingView image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.settingInfoView{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:100rpx;
+  overflow-y: auto;
+  border-radius: 20rpx;
+}
+.settingInfoView::-webkit-scrollbar{
+  width: 4rpx;
+}
+.settingInfoContainer{
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  box-sizing: border-box;
+}
+.settingInfo{
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.attestation{
+  padding: 0 55rpx;
+}
+.attestationType{
+  border-bottom: 2rpx solid #ddd;
+  padding-bottom: 40rpx;
+  margin-bottom: 40rpx;
+}
+.attestationTypeTitle{
+  color: #888888;
+  font-size: 26rpx;
+  margin-bottom: 40rpx;
+}
+.attestationTypeCheck{
+  position: relative;
+  font-size: 30rpx;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.attestationTypeCheck image{
+  width: 28rpx;
+  height: 20rpx;
+  position: absolute;
+  top: 50%;
+  left: -55rpx;
+  margin-top: -10rpx;
+  display: none;
+}
+.check{
+  color: #32bcff;
+}
+.check image{
+  display: block;
+}

@@ -1,0 +1,60 @@
+<!--pages/user-invite/user-invite.wxml-->
+<view>
+
+  <view class='inviteHeader'>
+    <view class='user'>
+      <image class='inviteHeader_bg1' src='../../images/ico-23.png'></image>
+      <image class='inviteHeader_bg2' src='../../images/ico-22.png'></image>
+      <image class='inviteHeader_userPic' src='../../images/img2.png'></image>
+      <view class='userName'>
+        <text>我就是个用户名</text>
+      </view>
+    </view>
+  </view>
+  <view class='inviteConnectPic'>
+    <image src='../../images/img4.png'></image>
+  </view>
+
+  <view class='referrer'>
+    <image class='referrerPic' src='../../images/img2.png'></image>
+    <view class='referrerMessage'>
+      <view class='referrerNmae'>
+        <text>推荐人用户名</text>
+      </view>
+      <view class='inviteBubble'>
+        <view class='bubble'>
+          <image class='bubbleArrow' src='../../images/ico-24.png'></image>
+          <text>邀请您来“产品红包群”实名认证</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='goAttestation'>
+      <button>火速认证</button>
+    </view>
+
+    <view class='ownerNumber'>
+      <text>已拥有 <text class='number'>3</text> 个实名认证群</text>
+    </view>
+  </view>
+
+  <view class='groupList'>
+    <view class='groupItem' wx:for="{{3}}" wx:key="">
+      <view class='groupName'>
+        <text>邀请人拥有群列表</text>
+      </view>
+      <view class='groupIcon'>
+        <image class='groupTypeIcon' src='../../images/ico-5.png'></image>
+        <image class='groupItemIcon' src='../../images/ico-3.png'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='transmit'>
+    <text>转发到想要认证的群 ></text>
+  </view>
+
+
+
+
+</view>

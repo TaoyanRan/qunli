@@ -1,0 +1,33 @@
+<!--fmowner.wxml-->
+<view class="pg-fmowner">
+  <form class="fm-owner" bindsubmit="formSubmit">
+    <view class="sectio section-tarea">
+      <textarea placeholder="请按认证要求输入..." placeholder-style="color:#ccc;" />
+    </view>
+    <view class="section section-pic">
+      <image mode="aspectFit" src="../../images/ico-15.png"></image>
+    </view>
+    <view class="section-btn">
+      <button formType="submit" hover-class="button-hover" bindtap="default">提交群主审核</button>
+      <text class="tip2">您提交的信息仅用于群主审核 <text>免责声明</text></text>
+    </view>
+  </form>
+  <view class="bx-tip">
+    <text class="tip0">认证要求：</text>
+    <text class="tip1">请在输入框中输入您的姓名、房屋门牌号、并上传您的身份证、房产证或房屋合同。</text>    
+  </view>
+
+  <view class="overlay_bx">
+    <view class="overlay_bg"></view>
+    <view class="overlay_bd">
+      <view class="overlay_con">
+        <text class="tt">产品群认证要求</text>
+        <view class="overlay_des">
+            <block>请在输入框中输入您的姓名、房屋门牌号、并上传您的身份证、房产证或房屋合同。</block>
+        </view>
+        <button class="overlay_btn" formType="submit" hover-class="button-hover" bindtap="default">知道了</button>
+      </view>
+      <icon class="icon ico-10" />
+    </view>
+  </view>
+</view>

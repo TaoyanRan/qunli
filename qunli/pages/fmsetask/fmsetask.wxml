@@ -1,0 +1,29 @@
+<!--fmowner.wxml-->
+<view class="pg-fmowner">
+  <form class="fm-owner" bindsubmit="formSubmit">
+    <view class="section section-tarea">
+      <textarea placeholder="请输入您的要求或使用模板..." placeholder-style="color:#ccc;" />
+    </view>
+    <view class="section-mkmb">
+      <button class="btn-mkmb" hover-class="button-hover-mkmb" bindtap="default">使用模板</button>
+    </view>
+    <view class="section-btn">
+      <button formType="submit" hover-class="button-hover" bindtap="default">完成</button>
+      <text class="tip2">要求中可以包括：需要大家填写什么信息，上传什么认证材料图片。设置后，群友会按照要求提供信息，群主大大再对信息进行审核。<text>查看示例</text></text>
+    </view>
+  </form>
+
+  <view class="overlay_bx">
+    <view class="overlay_bg"></view>
+    <view class="overlay_bd">
+      <view class="overlay_con">
+        <text class="tt">产品群认证要求</text>
+        <view class="overlay_des">
+            <block>请在输入框中输入您的姓名、房屋门牌号、并上传您的身份证、房产证或房屋合同。</block>
+        </view>
+        <button class="overlay_btn" formType="submit" hover-class="button-hover" bindtap="default">知道了</button>
+      </view>
+      <icon class="icon ico-10" />
+    </view>
+  </view>
+</view>

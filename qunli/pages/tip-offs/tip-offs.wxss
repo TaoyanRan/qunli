@@ -1,0 +1,27 @@
+/* pages/tip-offs/tip-offs.wxss */
+page{
+  background: #f9f9f9
+}
+.tip-offs-body>view{
+  background: #fff;
+  padding:30rpx 40rpx;
+}
+.tip-offs-body>view:last-child{
+  background: none;
+   margin: 40rpx 0; 
+}
+.tip-offs-text textarea{
+  font-size: 30rpx;
+  line-height: 1.5em;
+
+}
+.tip-offs-concat{
+  margin-top: 20rpx;
+}
+.tip-offs-concat-text{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.tip-offs-mobile{
+  font-size: 30rpx;
+}

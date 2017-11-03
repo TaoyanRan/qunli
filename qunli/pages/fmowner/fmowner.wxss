@@ -1,0 +1,25 @@
+/*fmowner*/
+page{background:#f9f9f9;}
+.fm-owner{padding:27px 20px 18px;background:#fff;}
+.fm-owner textarea{width:100%;height:95px;font-size:16px;line-height:26px;}
+.section-tarea{margin-bottom:20px;}
+.section-pic{margin-bottom:20px;}
+.section-pic image{width:80px;height:80px;}
+.section-btn{text-align:center;}
+.section-btn button{margin-bottom:18px;}
+.tip2{display:block;font-size:13px;line-height:1;color:#888;}
+.tip2 text{color:#586c94;}
+
+.bx-tip{padding:20px 20px;font-size:13px;line-height:23px;color:#888;}
+.bx-tip text{display:block;}
+.tip0{margin-bottom:11px;line-height:1;}
+
+/*遮罩*/
+.overlay_bx{font-size:0;}
+.overlay_bg{position:fixed;top:0;bottom:0;left:0;right:0;z-index:9999;background:rgba(0,0,0,.3);}
+.overlay_bd{position:fixed;top:28%;left:26px;right:26px;z-index:10000;text-align:center;}
+.overlay_con{padding:35px 13px 14px;font-size:16px;text-align:initial;color:#000;background:#fff;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
+.overlay_con .tt{display:block;line-height:1;text-align:center;}
+.overlay_des{padding:23px 12px;line-height:25px;}
+.overlay_btn{margin-top:34px;}
+.overlay_bd .ico-10{margin-top:19px;}

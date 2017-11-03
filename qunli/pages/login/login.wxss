@@ -1,0 +1,15 @@
+/*login*/
+page{background:#f9f9f9;}
+.pg-login{}
+.fm-login input::-webkit-input-placeholder{color:#ddd;}
+.fm-login{margin:0 20px;}
+.fm-login .section{
+  display:-webkit-box;display:-moz-box;display:-ms-box;display:-webkit-flex;display:flex;
+  -moz-align-items:center;-webkit-align-items:center;align-items:center;
+  padding-top:15px;border-bottom:1px solid #ddd;}
+.fm-login .section input{
+  -webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;-webkit-flex:1;flex:1;
+  min-height:auto;height:22px;padding:13px 0;font-size:14px;line-height:22px;color:#000;}
+.fm-login .section-btn{margin-top:35px;}
+.fm-login  button.btn-vcode{padding:0;font-size:12px;color:#3abefe;background:transparent;}
+.fm-login  button.btn-vcode.btn-disabled{color:#b2b2b2;}

@@ -1,0 +1,69 @@
+/**home.wxss**/
+page{background:#f9f9f9;}
+
+.item-md1,.item-md1 .it_info .it_i0,.item-md1 .it_info .it_ix,
+.item-md1 .it_info .it_g0,.item-md1 .it_state,.bx1-minfo .it_g0 .it_gx{display:-webkit-box;display:-moz-box;display:-ms-box;display:-webkit-flex;display:flex;
+  -moz-align-items:center;-webkit-align-items:center;align-items:center;}
+.item-md1 .it_info,.item-md1 .it_info .it_ix,.bx1-minfo .it_g0 .it_gx{-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;-webkit-flex:1;flex:1;}
+
+.item-md1{margin:0 13px;padding:14px 0;border-bottom:1px solid #f2f2f2;background:#fff;}
+.pg-tmplList .item-md1:last-child{border:none;}
+.item-md1 .it_img{width:42px;height:42px;margin-right:10px;}
+.item-md1 .it_info .it_t0{display:block;font-size:15px;line-height:1;color:#000;}
+.item-md1 .it_info .it_g0{margin-top:8px;}
+.item-md1 .it_info .it_t1{font-size:13px;line-height:1;color:#888;}
+.item-md1 .it_info .ico-8{position:relative;display:inline-block;width:75px;margin-left:5px;background-position:0 center;background-repeat:repeat-x;background-size:auto 100%;}
+.item-md1 .it_info .ico-9{position:absolute;width:33%;background-position:0 center;background-repeat:repeat-x;background-size:auto 100%;}
+.item-md1 .it_state{font-size:13px;line-height:1;}
+.item-md1 .it_state text{margin-left:7px;}
+.item-md1 .it_state .ico-3{margin-left:6px;}
+.item-md1 .it_state .ico-2{margin-left:10px;}
+.item-md1 .it_state .ico-6{margin-left:10px;}
+.item-md1 .it_state .ico-7{margin-left:10px;}
+.item-md1 .it_state button{width:72px;padding:0;font-size:13px;line-height:30px;}
+.item-md1 .it_info .it_i0{position:relative;}
+.item-md1 .it_info .it_i0 .it_ibtn{position:absolute;right:0;}
+.item-md1 .it_info .it_i0 .it_ibtn button{padding:0 7px;line-height:28px;color:#32bcff;background:transparent;border:1px solid #32bcff;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.item-md1 .it_tel{padding:0 12px;font-size:13px;line-height:26px;color:#888;border:1px solid #888;-moz-border-radius:12px;-webkit-border-radius:12px;border-radius:12px;}
+.item-md1 .it_tel .ico-19{margin-right:4px;vertical-align:middle;}
+.item-md1 .it_info .it_g0 .ico-2{margin-right:6px;}
+
+/**/
+.bx-minfo{background:#fff;padding:30px 0;}
+.minfo-btn{padding:0 20px;margin-top:34px;}
+.minfo-item{padding:0;border:none;}
+.minfo-item .it_img{width:60px;height:60px;margin-right:11px;}
+.minfo-item .it_info .ico-8{margin-left:9px;}
+.minfo-item .it_info .it_g0{margin-top:10px;}
+.minfo-item .it_info .it_i0 .ico-5{margin-left:15px;}
+.bx2-minfo .minfo2-btn{margin-top:25px;}
+.bx2-minfo .minfo2-btn button{line-height:38px;color:#32bcff;background:transparent;border:1px solid #32bcff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+/**/
+.bx1-minfo .it_i0 .ico-2{margin-left:12px;}
+.bx1-minfo .it_i0 .ico-6{margin-left:12px;}
+
+/*tipso*/
+.j_tipso_tools{position:relative;}
+.j_tipso_vtxt{position:absolute;left:0;top:-35px;z-index:2;width:100%;height:27px;text-align:center;}
+.j_tipso_txt{position:relative;padding:6px 8px;font-size:13px;line-height:1;color:#fff;background:#4c4c4c;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.j_tipso_icon{position:absolute;bottom:-5px;left:50%;margin-left:-6px;}
+
+/*bx-btzlk*/
+.bx-btzlk{padding:34px 0;font-size:13px;line-height:1;color:#32bcff;text-align:center;}
+
+/*遮罩*/
+.overlay_bx{font-size:0;display:none;}
+.overlay_bg{position:fixed;top:0;bottom:0;left:0;right:0;z-index:9999;background:rgba(0,0,0,.3);}
+.overlay_bd{position:fixed;top:28%;left:26px;right:26px;z-index:10000;text-align:center;}
+.overlay_con{padding:35px 13px 14px;font-size:16px;text-align:initial;color:#000;background:#fff;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
+.overlay_con .tt{display:block;line-height:1;text-align:center;}
+.overlay_des{padding:23px 12px 0;line-height:25px;}
+.overlay_btn{margin-top:28px;}
+.overlay_bd .ico-10{margin-top:19px;}
+
+.overlay_con2{padding:0;}
+.overlay_con2 .overlay_des{padding:45px 26px 23px;font-size:15px;line-height:26px;color:#000;}
+.overlay_vbtn{height:66px;}
+.overlay_vbtn .overlay_btn{float:left;width:50%;height:100%;margin-top:0;line-height:66px;color:#888;background:transparent;}
+.overlay_vbtn .overlay_btn_ok{color:#32bcff;}

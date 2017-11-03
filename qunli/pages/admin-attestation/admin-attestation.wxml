@@ -1,0 +1,36 @@
+<!--pages/admin-attestation/admin-attestation.wxml-->
+<view>
+  <view class='attestationHeader'>
+    <text>认证成为“嵩云北京”群的群主</text>
+  </view>
+
+  <view class='attestationContainer'>
+    <view class='attestationText'>
+      <text>群主截屏</text>
+      <text class='small'>(上传群管理页面以证明您是群主)</text>
+    </view>
+    <view class='attestation'>
+      <view class='uploadImg'>
+        <image src='../../images/ico-20.png'></image>
+      </view>
+
+      <view class='example'>
+        <image class='exampleImg' src='http://iph.href.lu/200x200'></image>
+        <image class='exampleIcon' src='../../images/ico-21.png'></image>
+      </view>
+    
+    </view>
+  </view>
+
+  <view class='next'>
+    <button>下一步</button>
+  </view>
+
+
+
+
+
+
+
+
+</view>

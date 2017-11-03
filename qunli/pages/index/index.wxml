@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view>
+  <view class="section-img1">
+    <image mode="widthFix" style="position:absolute;top:50%;left:10.67%;margin-top:-31%;width:78.66%;height:67.6%;" src="../../images/img1.png"></image>
+  </view>
+  <view class="section-btn">
+    <view class="btn-item">
+      <button formType="submit" hover-class="button-hover" bindtap="default">群主点我</button>
+      <text>群主设置群认证方式</text>
+    </view>
+    <view class="btn-item">
+      <button class="btn-mclick" formType="submit" hover-class="button-hover-mclick" bindtap="default">群成员点我</button>
+      <text>转发给群主或转发到想要认证的群</text>
+    </view>
+  </view>
+</view>
+
+<view class="overlay_bx">
+  <view class="overlay_bg"></view>
+  <view class="overlay_bd">
+    <view class="overlay_con">
+      <text class="tt">提示</text>
+      <view class="overlay_des">
+          <block>本群的xxx已经申请群主认证，您暂时不能申请，如有疑问可拨打客服电话1388888888</block>
+      </view>
+      <view class="overlay_btn1">
+        <button class="overlay_cancel">取消</button>
+        <button class="overlay_ok">联系客服</button>
+      </view>
+    </view>
+  </view>
+</view>

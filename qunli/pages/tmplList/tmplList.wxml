@@ -1,0 +1,38 @@
+<!--tmplList.wxml-->
+<view class="pg-tmplList">
+  <view class="item-md1">
+    <view class="it_img"><image style="width:42px;height:42px;" src="../../images/img2.png"></image></view>
+    <view class="it_info">
+      <text class="it_t0">棋子</text>
+      <view class="it_g0">
+        <text class="it_t1">棋子</text>
+        <view class="icon ico-8">
+          <icon class="icon ico-9" />
+        </view>
+      </view>
+    </view>
+    <view class="it_state">
+      <icon class="icon ico-5" />
+      <icon class="icon ico-2" />
+      <icon class="icon ico-6" />
+      <icon class="icon ico-7" />
+      <text>已认证</text>
+      <icon class="icon ico-3" />
+    </view>
+  </view>
+  <view class="item-md1">
+    <view class="it_img"><image style="width:42px;height:42px;" src="../../images/img2.png"></image></view>
+    <view class="it_info">
+      <text class="it_t0">棋子</text>
+      <view class="it_g0">
+        <text class="it_t1">棋子</text>
+        <view class="icon ico-8">
+          <icon class="icon ico-9" />
+        </view>
+      </view>
+    </view>
+    <view class="it_state">
+      <button hover-class="button-hover" bindtap="default">重新认证</button>
+    </view>
+  </view>
+</view>

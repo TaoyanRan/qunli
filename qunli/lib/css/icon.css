@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*reset*/
+.icon{display:inline-block;background-position:center center;background-repeat:no-repeat;background-size:100% 100%;}
+.ico-8{width:15px;height:13px;background-image:url(../../images/ico-8.png);}
+.ico-9{width:15px;height:13px;background-image:url(../../images/ico-9.png);}
+.ico-5{width:17px;height:18px;background-image:url(../../images/ico-5.png);}
+.ico-6{width:15px;height:15px;background-image:url(../../images/ico-6.png);}
+.ico-7{width:15px;height:15px;background-image:url(../../images/ico-7.png);}
+.ico-3{width:8px;height:13px;background-image:url(../../images/ico-3.png);}
+.ico-4{width:16px;height:16px;background-image:url(../../images/ico-4.png);}
+.ico-2{width:15px;height:15px;background-image:url(../../images/ico-2.png);}
+.ico-10{width:30px;height:30px;background-image:url(../../images/ico-10.png);}
+.ico-18{width:13px;height:6px;background-image:url(../../images/ico-18.png);}
+.ico-19{width:16px;height:16px;background-image:url(../../images/ico-19.png);}

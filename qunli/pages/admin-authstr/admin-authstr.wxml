@@ -1,0 +1,147 @@
+<!--pages/admin-authstr/admin-authstr.wxml-->
+<view>
+  <view class='admin-intro'>
+    <view class='admin'>
+      <view class='admin-pic'>
+        <image src='../../images/img2.png'></image>
+      </view>
+      <view>
+        <view>
+          <text class='admin-nickname'>请叫我帅锅</text>
+          <image class='admin-tag-icon' src='../../images/ico-5.png'></image>
+        </view>
+        <view class='grade'>
+          <view class='grade-type'>
+            <text>社群影响力</text>
+          </view>
+          <view class='star'>
+            <image wx:for='{{5}}' wx:key='' src='../../images/ico-{{index<star?9:8}}.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='admin-attestation-setting'>
+      <text>认证设置</text>
+    </view>
+  </view>
+  <view class='up-influence'>
+    <button>邀请群友，提升影响力</button>
+    <view>
+      <view>
+        <text>分享到群里让大家开始认证吧</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='container'>
+    <view class='tab'>
+      <view class='tab-header'>
+        <view class='{{tabIndex == 0?"tab-check":""}}' data-tabIndex='0' bindtap='tab'>
+          <text>群列表(21/35)</text>
+        </view>
+        <view class='{{tabIndex == 1?"tab-check":""}}' data-tabIndex='1' bindtap='tab'>
+          <text>待审核(10)</text>
+        </view>
+      </view>
+
+      <view class='tab-container'>
+        <view wx:if="{{tabIndex == 0}}">
+        <!-- 群列表 -->
+          <view class='groupList'>
+            <!--触发action-sheet事件-->
+            <view class='groupItem' data-index='{{index}}' wx:for='{{10}}' wx:key='' bindtap="listenerButton">
+              <view class='groupIntro'>
+                <view class='groupPic'>
+                  <image src='../../images/img2.png'></image>
+                </view>
+                <view>
+                  <view class='admin-nickname'>
+                    <text>请叫我帅锅{{index}}</text>
+                  </view>
+                  <view class='grade'>
+                    <view class='grade-type'>
+                      <text>社区影响力</text>
+                    </view>
+                    <view class='star'>
+                      <image wx:for="{{5}}" wx:key="0" 
+                      src='../../images/ico-{{index<groupStar?9:8}}.png'></image>
+                    </view>
+                  </view>
+                </view>
+
+              </view>
+              <view class='groupState'>
+                <image wx:if="{{index%2!=0}}" src='../../images/ico-5.png'></image>
+                <image wx:if="{{index%2!=0}}" src='../../images/ico-6.png'></image>
+                <image wx:if="{{index%2==0}}" src='../../images/ico-7.png'></image>
+                <text>{{index%2!=0?"已":"未"}}认证</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view wx:if="{{tabIndex == 1}}">
+          <!-- 待审核列表 -->
+          <view class='authstrList'>
+            <view class='authstrItem' wx:for="{{3}}" wx:key="">
+              <view class='user'>
+                <image src='../../images/img2.png'></image>
+                <view>
+                  <view class='userName'>
+                    <text>请开始你的表演</text>
+                  </view>
+                  <view class='timmer'>
+                    <text>20分钟前</text>
+                  </view>
+                </view>
+              </view>
+              <view class='publishText'>
+                <text wx:for="{{3}}" wx:key="">待审核列表，图片显示规则待定.待审核列表，图片显示规则待定.待审核列表，图片显示规则待定.待审核列表，图片显示规则待定.</text>
+              </view>
+              <!-- 图片显示规则待定 -->
+              <view class='picList'>
+                <image wx:for="{{1}}" wx:key="" bindload='imageLoad' 
+                src='http://iph.href.lu/300x200' data-index="{{ index }}" 
+                style="width:{{ images[index].width }}rpx; height:{{ images[index].height }}rpx;"></image>
+              
+              </view>
+
+              <view class='result'>
+                <view>
+                  <button>拒绝</button>
+                </view>
+                <view>
+                  <button>通过</button>
+                </view>
+              </view>
+            
+            
+            
+            </view>
+
+          </view>
+        </view>
+      </view>
+    
+    </view>
+  
+  
+  </view>
+
+
+
+<!--默认action-sheet为隐藏，由button触发-->
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="listenerActionSheet" >
+
+    <block wx:for-items="{{actionSheetItems}}" > 
+        <action-sheet-item >{{item}}</action-sheet-item>
+    </block>
+    <!--自动隐藏action-sheet-->
+    <action-sheet-cancel>取消</action-sheet-cancel>
+</action-sheet>
+
+
+
+
+
+</view>

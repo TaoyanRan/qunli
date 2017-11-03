@@ -1,0 +1,19 @@
+<!--pages/tip-offs/tip-offs.wxml-->
+<view class='tip-offs-body'>
+  <view class='tip-offs-text'>
+    <textarea placeholder='为什么要举报群主？他是假群主？还是有不合理的行为？'></textarea>
+  </view>
+
+  <view class='tip-offs-concat'>
+    <view class='tip-offs-concat-text'>
+      <text>您的联系方式</text>
+    </view>
+    <view class='tip-offs-mobile'>
+      <input type="number" placeholder='请输入您的手机号' maxlength='11'/>
+    </view>
+  </view>
+
+  <view class='tip-offs-concat-submut'>
+    <button>提交举报</button>
+  </view>
+</view>

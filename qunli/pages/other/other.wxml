@@ -1,0 +1,19 @@
+<!--ohter.wxml-->
+<view class="pg-stip">
+  <text class="tip0">三步建立认证群</text>
+  <view class="section sec-item1">
+    <image mode="widthFix" style="width:40px;" src="../../images/ico-11.png"></image>
+    <text>第一步：验证群主身份</text>
+  </view>
+  <view class="section sec-item2">
+    <image mode="widthFix" style="width:45px;" src="../../images/ico-12.png"></image>
+    <text>第二步：设置群认证规则</text>
+  </view>
+  <view class="section sec-item3">
+    <image mode="widthFix" style="width:51px;" src="../../images/ico-13.png"></image>
+    <text>第三步：群成员认证，群主审核</text>
+  </view>
+  <view class="sec-btn">
+    <button formType="submit" hover-class="button-hover" bindtap="default">点击验证群主身份</button>
+  </view>
+</view>

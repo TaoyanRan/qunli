@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*reset*/
+*{margin:0;padding:0;outline:0;word-break:break-all;}
+html,body{font-family:PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif;background:#fff;}
+address,caption,cite,code,dfn,em,th{font-style:normal;font-weight:400;}caption,th{text-align:left;}del{text-decoration:line-through;}
+fieldset{border:0;}abbr,acronym{border:0;font-variant:normal;}q:before,q:after{content:'';};
+input,select,textarea,button{font-size:inherit;font-size:100%;}h1,h2,h3,h4,h5{font-size:100%;font-weight:500;}
+ul,li,ol{list-style:none;}var,i{font-style:normal;}strong,b{font-weight:400;}img{border:none;vertical-align:top;}
+a{text-decoration:none;color:#000;}table{border:none;border-collapse:collapse;border-spacing:0;}
+.fl{float:left;}.fr{float:right;}.clearfix:after {clear:both;display:block;content:" ";visibility:hidden;height:0;font-size:0;}.clearfix{zoom:1;}
+html{height:100%;font-size:20px;}body{min-height:100%;font-szie:62.5%;}
+/*mobile*/
+html { -webkit-tap-highlight-color:transparent;-webkit-user-select:none;}
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;width:100%;} /* 禁止webkit横屏改变字体大小 */
+body{-webkit-overflow-scrolling:touch;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+::-webkit-scrollbar {display:none;}
+img{border:none;interpolation-mode:bicubic;}/* 图片自适应调整 并解决图片缩放的失真问题*/
+a,img {-webkit-touch-callout:none;}
+a,button,input,optgroup,select,textarea {border:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);-moz-tap-highlight-color:rgba(0,0,0,0);-ms-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance:none;}
+input[type="number"]{-moz-appearance:textfield;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {color:#b2b2b2;}
+input:focus {outline:none;}
+img{max-width:100%;height:auto;}
+html{height:100%;}body{min-height:100%;}

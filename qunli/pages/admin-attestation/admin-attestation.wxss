@@ -1,0 +1,60 @@
+/* pages/admin-attestation/admin-attestation.wxss */
+page{
+  background: #f9f9f9;
+}
+.attestationHeader{
+  padding: 35rpx 0;
+  text-align: center;
+  color: #353535;
+  font-size: 26rpx;
+}
+.attestationContainer{
+  padding: 60rpx 40rpx 40rpx;
+  background: #fff;
+}
+.attestationText{
+  color: #000000;
+  font-size: 30rpx;
+}
+.attestationText .small{
+  font-size: 22rpx;
+  color: #949494;
+}
+.attestation{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75rpx;
+}
+.uploadImg,.example{
+  width: 210rpx;
+  height: 210rpx;
+  border: 2rpx solid #dddddd;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.uploadImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uploadImg image{
+  width: 88rpx;
+  height: 92rpx;
+}
+.exampleImg{
+  width: 100%;
+  height: 100%;
+}
+.example{
+  position: relative;
+}
+.exampleIcon{
+  position: absolute;
+  right: -2rpx;
+  top: -2rpx;
+  width: 112rpx;
+  height: 96rpx;
+}
+.next{
+  padding: 50rpx 40rpx;
+}

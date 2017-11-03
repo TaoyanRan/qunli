@@ -1,0 +1,14 @@
+<!--okowner.wxml-->
+<view class="pg-okowner">
+  <view class="section-tip">
+    <image mode="widthFix" style="width:93px;" src="../../images/ico-17.png"></image>
+    <text class="tip0">提交成功</text>
+    <text class="tip1">请等待工作人员联系审核</text>
+  </view>
+  <view class="section-btn">
+    <button formType="submit" hover-class="button-hover" bindtap="default">返回群主页</button>
+  </view>
+  <view class="section-tel">
+    <text>客服电话 <text class="tip2">13931521352</text></text>
+  </view>
+</view>

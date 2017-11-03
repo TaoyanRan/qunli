@@ -1,0 +1,41 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.6.0",
+	"appid": "touristappid",
+	"projectname": "%E7%BE%A4%E9%87%8C",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "群主 待审核 群列表 一键认证",
+					"pathName": "pages/admin-authstr/admin-authstr",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "previewImage 图片预览",
+					"pathName": "test/previewImage/previewImage",
+					"query": ""
+				}
+			]
+		}
+	}
+}

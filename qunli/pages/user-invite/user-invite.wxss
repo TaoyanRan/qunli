@@ -1,0 +1,141 @@
+/* pages/user-invite/user-invite.wxss */
+page{
+  background: #fff;
+}
+.inviteHeader{
+  background: #32bcff;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.inviteHeader .user{
+  position: relative;
+}
+.inviteHeader_bg1{
+  width: 380rpx;
+  height: 380rpx;
+}
+.inviteHeader_bg2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 184rpx;
+  height: 184rpx;
+  margin-top: -92rpx;
+  margin-left: -92rpx;
+}
+.inviteHeader_userPic{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140rpx;
+  height: 140rpx;
+  margin-top: -72rpx;
+  margin-left: -72rpx;
+  border-radius: 50%;
+  border: 2rpx solid #fff;
+}
+.userName{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.inviteConnectPic image{
+  width: 750rpx;
+  height: 93rpx;
+}
+.inviteBubble{
+
+}
+.bubble{
+  position: relative;
+  padding: 30rpx 20rpx;
+  color: #353535;
+  font-size: 28rpx;
+  border: 1rpx solid #dddddd;
+  display: inline-block;
+  border-radius:10rpx ;
+  margin-left: 12rpx;
+}
+.bubbleArrow{
+  position: absolute;
+  right: 100%;
+  width: 12rpx;
+  height: 24rpx;
+  top: 17rpx;
+}
+.referrer{
+  overflow: hidden;
+  padding: 25rpx;
+}
+.referrerPic{
+  float: left;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.referrerMessage{
+  overflow: hidden;
+}
+.referrerNmae{
+  color: #353535;
+  font-size: 28rpx;
+  margin: 30rpx 0;
+}
+.goAttestation{
+  margin-top: 35rpx;
+  margin-bottom: 100rpx;
+}
+.goAttestation button{
+  width: 50%;
+}
+.ownerNumber{
+  text-align: center;
+  color: #353535;
+  font-size: 28rpx;
+}
+.ownerNumber .number{
+  font-size: 32rpx;
+  color: #32bcff;
+}
+.groupList{
+  margin-top: 50rpx;
+}
+.groupItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40rpx 25rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+.groupItem:first-child{
+  border-top: 2rpx solid #f2f2f2;
+}
+.groupName{
+  color: #000;
+  font-size: 32rpx;
+}
+.groupIcon{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.groupTypeIcon{
+  width: 33rpx;
+  height: 36rpx;
+  margin-left: 25rpx;
+}
+.groupItemIcon{
+  width: 15rpx;
+  height: 25rpx;
+  margin-left: 25rpx;
+}
+.transmit{
+  color: #32bcff;
+  text-align: center;
+  margin: 60rpx 0;
+  font-size: 28rpx;
+}

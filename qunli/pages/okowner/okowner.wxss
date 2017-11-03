@@ -1,0 +1,8 @@
+/*ok*/
+page{background:#f9f9f9;}
+.section-tip{padding:52px 0 0 0;text-align:center;}
+.section-tip .tip0{display:block;margin-top:35px;font-size:19px;line-height:1;font-weight:500;color:#000;}
+.section-tip .tip1{display:block;margin-top:26px;font-size:13px;line-height:1;color:#888;}
+.section-btn{margin:120px 20px 0;}
+.section-tel{position:fixed;bottom:32px;width:100%;font-size:12px;line-height:1;text-align:center;}
+.section-tel .tip2{color:#586c94;}

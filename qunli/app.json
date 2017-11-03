@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "test/setting-view/setting-view",
+    "pages/fmowner/fmowner",
+    "pages/tmplList/tmplList",
+    "pages/index/index",
+    "pages/okmember/okmember",
+    "pages/user-invite/user-invite",
+    "pages/user-brief/user-brief",
+    "pages/admin-attestation/admin-attestation",
+    "pages/admin-authstr/admin-authstr",
+    "pages/home/home",
+    "pages/fmsetask/fmsetask",
+    "pages/other/other",
+    "pages/tip-offs/tip-offs",
+    "pages/login/login",
+    "pages/okowner/okowner",
+    "pages/detail/detail",
+    "test/previewImage/previewImage",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f9f9f9",
+    "navigationBarTitleText": "群里",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,62 @@
+<!--test/setting-view/setting-view.wxml-->
+<view>
+  <view class='settingView'>
+    <view class='settingMask'></view>
+    <view class='settingContainer'>
+      <!--  垂直居中 -->
+      <!-- <text wx:for="{{20}}" wx:key="">{{index}}\n</text> -->
+      <view class='settingInfoView'>
+        <view class='settingInfoContainer'>
+          <view class='settingInfo'>
+
+            <view class='attestation'>
+              <view bindtap='checkAttestationType' data-type='owner' class='attestationType'>
+                <view class='attestationTypeTitle'>
+                  <text>业主认证</text>
+                </view>
+                <view class='attestationTypeCheck {{attestationType=="owner"?"check":""}}'>
+                  <image src='../../images/ico-25.png'></image>
+                  <text>请在输入框中输入您的姓名、房屋门牌号、并上传您的身份证、房产证或房屋合同。</text>
+                </view>
+              </view>
+              <view bindtap='checkAttestationType' data-type='name' class='attestationType'>
+                <view class='attestationTypeTitle'>
+                  <text>实名认证</text>
+                </view>
+                <view class='attestationTypeCheck {{attestationType=="name"?"check":""}}'>
+                  <image src='../../images/ico-25.png'></image>
+                  <text>请在输入框中输入您的姓名、身份证号，并上传您的身份证照片。</text>
+                </view>
+              </view>
+              <view bindtap='checkAttestationType' data-type='profession' class='attestationType'>
+                <view class='attestationTypeTitle'>
+                  <text>职业认证</text>
+                </view>
+                <view class='attestationTypeCheck {{attestationType=="profession"?"check":""}}'>
+                  <image src='../../images/ico-25.png'></image>
+                  <text>请在输入框中输入您的姓名、公司，并上传您的名片。</text>
+                </view>
+              </view>
+            </view>
+            <view>
+              <button>确定</button>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class='closeSettingView'>
+        <image src='../../images/ico-10.png'></image>
+      </view>
+
+
+
+
+    </view>
+  </view>
+
+  <view>
+    <text>这里是没用的</text>
+  </view>
+
+</view>

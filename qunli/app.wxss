@@ -1,0 +1,19 @@
+@import  "lib/css/icon.wxss"; 
+
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+page{font-family:PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif;}
+image{vertical-align:top;}
+form{display:block;}
+button{font-size:30rpx;line-height:80rpx;color:#fff;background:#32bcff;border:none;}
+button:after{width:0;height:0;}
+button.button-hover{background:#1E9EDC;color:#fff;}
+.btn-disabled{background:#ccc;}

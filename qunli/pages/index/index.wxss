@@ -1,0 +1,24 @@
+/**index.wxss**/
+page{background:#fff;}
+.section-img1{position:absolute;top:0;bottom:224px;width:100%;}
+/*.section-img1 image{width:78.66%;height:67.6%;}*/
+.section-btn{position:fixed;bottom:0;z-index:10;width:100%;}
+.section-btn .btn-item{padding:17px 20px 25px;}
+.section-btn .btn-mclick{background:#fff;color:#32bcff;line-height:38px;border:1px solid #32bcff;}
+.section-btn text{display:block;margin-top:17px;font-size:13px;line-height:1;text-align:center;color:#888;}
+.section-btn .button-hover-mclick{background:#32bcff;color:#fff;}
+
+/*遮罩*/
+.overlay_bx{font-size:0;}
+.overlay_bg{position:fixed;top:0;bottom:0;left:0;right:0;z-index:9999;background:rgba(0,0,0,.3);}
+.overlay_bd{position:fixed;top:28%;left:26px;right:26px;z-index:10000;text-align:center;}
+.overlay_con{padding:28px 0 0;font-size:16px;text-align:initial;color:#000;background:#fff;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
+.overlay_con .tt{display:block;line-height:1;text-align:center;}
+.overlay_des{padding:23px 26px 18px;line-height:25px;}
+
+.overlay_btn1{
+  display:-webkit-box;display:-moz-box;display:-ms-box;display:-webkit-flex;display:flex;
+  -moz-align-items:center;-webkit-align-items:center;align-items:center;}
+.overlay_btn1 button{line-height:66px;color:#888;background:transparent;}
+.overlay_btn1 .overlay_cancel{width:50%;}
+.overlay_btn1 .overlay_ok{width:50%;color:#34bdff;}

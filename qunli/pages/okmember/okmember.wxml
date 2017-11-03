@@ -1,0 +1,11 @@
+<!--okmember.wxml-->
+<view class="pg-okmember">
+  <view class="section-tip">
+    <image mode="widthFix" style="width:93px;" src="../../images/ico-17.png"></image>
+    <text class="tip0">认证信息已提交</text>
+    <text class="tip1">请等待群主审核</text>
+  </view>
+  <view class="section-btn">
+    <button formType="submit" hover-class="button-hover" bindtap="default">返回群主页</button>
+  </view>
+</view>
